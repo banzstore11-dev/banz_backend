@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy to Server
         run: |
-          APP_DIR="/home/${{ secrets.SERVER_USERNAME }}/domains/mistyrose-tiger-867920.hostingersite.com/backend"
+          APP_DIR="/home/${{ secrets.SERVER_USERNAME }}/domains/banzstore.com/public_html/api/backend"
           REPO_URL="git@github.com:${{ github.repository }}.git"
 
           ssh -p 65002 -o StrictHostKeyChecking=no \
