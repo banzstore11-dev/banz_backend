@@ -269,6 +269,7 @@
                 </div>
             </main>
         </div>
+        <p>A change deployed using pipeline</p>
 
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
